@@ -41,3 +41,7 @@ briefing-ai-visuals/
 ## Bidra
 
 Fel, luckor eller bättre tips: issue eller PR. Lägg gärna till ett eval för det som gick snett.
+
+## Licens
+
+MIT, se `LICENSE`. Open source: använd, kopiera och förbättra fritt. Higgsfield är ett varumärke som tillhör sin ägare; repot är inte affilierat med Higgsfield.

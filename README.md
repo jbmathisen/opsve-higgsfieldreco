@@ -1,6 +1,6 @@
 # opsve-higgsfieldreco
 
-![Tänk först, generera sen. Översikt över skillens beslutsträd och fem steg](assets/skill-overview-16x9.png)
+![Tänk först, generera sen. Översikt över skillens beslutsträd och fem steg](assets/skill-oversikt-v2.png)
 
 > **Status: publik testversion (v0.4).** Vi vill gärna att du provar den på ett riktigt projekt och berättar hur det gick. Se [Testa åt oss](#testa-åt-oss).
 

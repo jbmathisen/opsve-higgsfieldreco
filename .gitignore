@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+*.log
+.env
+# testkörningar och genererat material hålls utanför repot
+_runs/
+visual-brief.md

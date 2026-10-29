@@ -1,0 +1,22 @@
+name: Fakta har ändrats
+description: Ett pris, modellnamn, en gräns eller ett verktyg i higgsfield-notes.md stämmer inte längre
+title: "Fakta: "
+labels: ["fakta"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Fil och rad eller avsnitt
+      placeholder: "t.ex. higgsfield-notes.md, Credits and cost"
+    validations: {required: true}
+  - type: textarea
+    id: now
+    attributes:
+      label: Vad stämmer nu
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes:
+      label: Källa och datum
+      placeholder: "länk till Higgsfields changelog, hjälpcenter eller blogg, och när du läste den"
+    validations: {required: true}

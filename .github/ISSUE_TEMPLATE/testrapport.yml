@@ -1,0 +1,51 @@
+name: Testrapport
+description: Berätta hur det gick när du använde skillen på ett riktigt jobb
+title: "Test: [jobb] med [verktyg]"
+labels: ["testrapport"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tack för att du testar. Dela bara bilder du har rätt att dela, och aldrig API-nycklar eller kontouppgifter.
+  - type: dropdown
+    id: job
+    attributes:
+      label: Jobb
+      options: [Hero-bild, Scrollfilm eller rörlig hero, Webb- eller UI-skisser, Produktbilder, Varumärkesmaterial, Video med scener, Annat]
+    validations: {required: true}
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Läge som skillen valde
+      options: [One-shot, Light, Full, Vet inte]
+  - type: input
+    id: agent
+    attributes:
+      label: Agent och väg
+      placeholder: "t.ex. Claude.ai + Higgsfield MCP, Claude Code + CLI, Codex, webben för hand"
+    validations: {required: true}
+  - type: input
+    id: credits
+    attributes:
+      label: Krediter, budget och faktiskt använt
+      placeholder: "t.ex. budget 200, använde 140"
+  - type: dropdown
+    id: compare
+    attributes:
+      label: Körde du samma jobb utan skill också?
+      options: [Nej, Ja, samma budget, Ja, annan budget]
+  - type: textarea
+    id: worked
+    attributes:
+      label: Vad funkade
+    validations: {required: true}
+  - type: textarea
+    id: drifted
+    attributes:
+      label: Vad drev iväg eller var onödigt
+      description: Frågor som kändes onödiga, råd som var fel, steg som saknades
+    validations: {required: true}
+  - type: textarea
+    id: media
+    attributes:
+      label: Bilder eller länkar (valfritt)
